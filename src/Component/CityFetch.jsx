@@ -1,9 +1,10 @@
 import React from 'react';
+import { Day } from '../Assets/Index';
 import './City.css'
 
 function CityFetch(props) {
   return <div>
-       <img src="/icons/perfect-day.svg" alt="" className="city" />
+       <Day className="Day7"/>
        <p className="find">Find Weather</p>
        <form onSubmit={props.fetchWeather}>
            <input placeholder='City' className='search' onChange={(e)=>props.setCity(e.target.value)} />

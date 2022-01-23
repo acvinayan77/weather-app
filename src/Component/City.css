@@ -10,7 +10,7 @@
     color: black;
     font-size: 18px;
     font-weight: bold;
-    margin-top: -20px;
+    margin-top: 40px;
     margin-left: 60px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -33,4 +33,9 @@
     background: black;
     font-weight: bold;
     cursor: pointer;
+}
+
+.Day7{
+    margin-left: 170px;
+    margin-top: 40px;
 }

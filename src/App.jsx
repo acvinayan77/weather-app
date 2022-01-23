@@ -20,9 +20,9 @@ function App() {
     <div className="App">
    <span>WEATHER APP</span>
    {Weather ? (
-     <WeatherData Weather={Weather}/> ) : (
-       <CityFetch setCity={setCity} fetchWeather={fetchWeather}/>
-     )}
+  <WeatherData Weather={Weather}/> ) : (
+    <CityFetch setCity={setCity} fetchWeather={fetchWeather}/>
+  )}
     </div>
   );
 }
