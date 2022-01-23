@@ -1,0 +1,36 @@
+.city{
+    width: 140px;
+  height: 140px;
+  margin: 40px auto;
+  margin-left: 120px;
+  
+}
+
+.find{
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: -20px;
+    margin-left: 60px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.search{
+    padding: 10px;
+    font-size: 14px;
+    border: none;
+    outline: none;
+    font-weight: bold;
+    margin-left: 60px;
+}
+
+.button{
+    padding: 10px;
+    font-size: 14px;
+    border: none;
+    outline: none;
+    color: white;
+    background: black;
+    font-weight: bold;
+    cursor: pointer;
+}
